@@ -1,0 +1,481 @@
+@import url("base.css");
+body{
+    background: #fff;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 673632 */
+    src: url('https://at.alicdn.com/t/font_673632_el88hnd2q82rzfr.eot');
+    src: url('https://at.alicdn.com/t/font_673632_el88hnd2q82rzfr.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_673632_el88hnd2q82rzfr.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_673632_el88hnd2q82rzfr.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_673632_el88hnd2q82rzfr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont'
+}
+.header{
+    width: 100%;
+    height:80px;
+    background:url("../img/1.png") no-repeat 50% 100%;
+    position: fixed;
+    top: 0;
+    left :0;
+    z-index: 999999;
+}
+.list{
+    width: 1140px;
+    height:100%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: block;
+    width:148px;
+    height:50px;
+}
+.one{
+    width:50px;
+    height:50px;
+    float: left;
+}
+.two{
+    width:94px;
+    height:50px;
+    float: left;
+}
+.deng{
+    width:80px;
+    height:36px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+}
+.deng:hover{
+    border-color: #ff6700;
+    color: #ff6700;
+}
+.center{
+    width:520px;
+    height:79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.center li{
+    height:79px;
+    line-height: 79px;
+    text-align: center;
+    color: #ff6700;
+}
+.center li.active{
+    color: #ff6700;
+    border-bottom: 1px solid;
+}
+.center li a.active{
+    color: #ff6700;
+}
+.center li a{
+    color: #fff;
+    position: relative;
+}
+.center li a:hover{
+    color: #ff6700;
+}
+
+.section {
+    width: 100%;
+    height: 398px;
+    background: url("../img/51.jpg");
+    margin-top: 50px;
+    overflow: hidden;
+}
+.cen{
+    width:100%;
+    height:397px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.section p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: -270px;
+}
+.cen h1{
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+}
+strong{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 700;
+}
+b{
+  margin: 0 10px;
+}
+
+
+
+
+/* 产品 下拉*/
+.ol{
+    position: absolute;
+    width:1519px;
+    height:218px;
+    background: rgba(0,0,0,.5);
+    top: 80px;
+    left:0;
+    display: none;
+}
+.ppt{
+    font-size: 22px;
+    color: white;
+}
+.Logo{
+    width: 14.285714%;
+    height:100%;
+    float: left;
+    overflow: hidden;
+}
+.Logo img{
+    margin-top: 20px;
+}
+.Logo p{
+    margin-top: -20px;
+}
+.section2{
+    width: 1160px;
+    height:754px;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom:60px;
+    box-sizing: border-box;
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.sec-ul{
+    width:1140px;
+    height:574px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.child{
+    width:370px;
+    height:560px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px 0 rgba(0,0,0,.1) ;
+}
+.children{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.children img{
+    width:370px;
+    height:320px;
+}
+.db{
+    width: 372px;
+    height:122px;
+    padding: 26px;
+    box-sizing: border-box;
+}
+.person{
+    font-size: 20px;
+    margin-bottom: 13px;
+    color: #333;
+}
+.cell{
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    color: #333;
+    font-size: 12px;
+}
+.ren{
+    font-size: 16px;
+    color: #08cc98;
+}
+.foot{
+    width:372px;
+    height:118px;
+    border-top: 1px solid #999;
+    display: flex;
+}
+.fot-left{
+    width:50%;
+    height:100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-right:1px solid #999 ;
+}
+.num{
+    text-align: center;
+    font-size: 30px;
+    color: #5a2dff;
+    line-height: 1.8;
+}
+.iNode{
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.lose{
+    width:100%;
+    height:537px;
+    background: #070e23;
+    overflow: hidden;
+    position: relative;
+}
+.loseT{
+    width:1140px;
+    height:236px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.loGo{
+    width:228px;
+    height:134px;
+    float: left;
+}
+.loGo img{
+    width:110px;
+    height:134px;
+}
+.map{
+    width:648px;
+    height:236px;
+    float: left;
+}
+.map dl{
+    width:33.333336%;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+}
+.map dt{
+    margin-bottom: 16px;
+    color: #666;
+}
+.map dd{
+    line-height: 32px;
+}
+.map dd a{
+    color: #fff;
+}
+.map dd a:hover{
+    color: #ff6700;
+}
+.erWei{
+    width:176px;
+    height:152px;
+    float: left;
+    margin-left: 88px;
+}
+.erWei img{
+    display: block;
+    width:92px;
+    height:92px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.erWei p{
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.loseB{
+    width:1140px;
+    height:156px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.loseB-top{
+    width:100%;
+    height:28px;
+    display: flex;
+}
+.topLeft{
+    width:355px;
+    height:28px;
+    display: flex;
+    justify-content: space-between;
+}
+.topLeft a{
+    font-size: 13px;
+    text-align: center;
+    line-height: 28px;
+    color: #666;
+}
+.topLeft a:hover{
+    color: white;
+}
+.topRight a:hover{
+    color: white;
+}
+.topRight{
+    width:320px;
+    height:28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+}
+.topRight p{
+    font-size: 12px;
+    color: #666;
+}
+.topRight a{
+    font-size: 12px;
+    color: #666;
+}
+.lose-center{
+    width:100%;
+    height:28px;
+}
+.lose-center a{
+    font-size: 12px;
+    line-height: 28px;
+    color: #666;
+}
+.lose-center a:hover{
+    color: white;
+}
+.lose-bto a:hover{
+    color: white;
+}
+b{
+    font-weight: 400;
+    margin: 0 8px;
+    color: #666;
+}
+.lose-bto{
+    width:100%;
+    height:28px;
+}
+.lose-bto a{
+    font-size: 12px;
+    line-height: 28px;
+    color: #666;
+}
+.Biao{
+    width:100%;
+    height:42px;
+    display: flex;
+    margin-top: 10px;
+}
+.biOne{
+    display: block;
+    width:40px;
+    height:42px;
+    margin-right: 20px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.biTwo{
+    display: block;
+    width:35px;
+    height:42px;
+    margin-right: 20px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+.three{
+    display: block;
+    width:38px;
+    height:42px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.biOne:hover{
+
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+}
+.biTwo:hover{
+
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+
+}
+.three:hover{
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.duoMaoMao{
+    position: absolute;
+    left:13%;
+    top:80px;
+    background: rgba(0,0,0,.3);
+    width:100%;
+    height:150px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: none;
+}
+.duoMaoMao dt{
+    color: white;
+    float: left;
+    margin:0 100px;
+}
+.duoMaoMao dt:hover{
+    color: #ff6700;
+}
+
+
+.rain{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background: #ccc;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    /*filter: blur(5px);*/
+    transition: all ease 1s;
+}
